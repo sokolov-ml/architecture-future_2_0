@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Страница — 1" id="rDNodmR12zRFZ04t3RQr">
-    <mxGraphModel dx="7709" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3931" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
         </object>
         <object label="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;[Domain]&lt;/font&gt;" placeholders="1" name="Medicine" id="za_llstwHbc8Mdf73bLc-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#828282;fillColor=none;fontColor=#000000;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=bottom;dashed=1;strokeWidth=1;perimeterSpacing=0;spacing=4;spacingTop=0;fontSize=10;dashPattern=14 14;rotatable=0;metaEdit=1;allowArrows=0;" vertex="1" parent="1">
-            <mxGeometry x="-1160" y="480" width="560" height="280" as="geometry" />
+            <mxGeometry x="-1160" y="440" width="560" height="360" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;[Domain]&lt;/font&gt;" placeholders="1" name="Finance" id="za_llstwHbc8Mdf73bLc-3">
@@ -130,7 +130,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;b&gt;%name%&lt;/b&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;[%technology%]" placeholders="1" name="DB connect" technology="JDBC" id="za_llstwHbc8Mdf73bLc-36">
-          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="za_llstwHbc8Mdf73bLc-40" target="za_llstwHbc8Mdf73bLc-37" parent="1">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="za_llstwHbc8Mdf73bLc-40" target="za_llstwHbc8Mdf73bLc-37" parent="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="-920" y="650" as="sourcePoint" />
               <mxPoint x="-690" y="825" as="targetPoint" />
@@ -139,19 +139,20 @@
         </object>
         <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; font-size: 12px ; white-space: normal&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;%description%&lt;/div&gt;" placeholders="1" name="MED_DB" description="БД для хранения медицинских данных" technology="MongoDB" id="za_llstwHbc8Mdf73bLc-37">
           <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#2F6FA6;strokeWidth=1;fillColor=#3B8CD2;fontSize=9;fontColor=#000000;align=center;resizable=0;rotatable=0;metaEdit=1;" vertex="1" parent="1">
-            <mxGeometry x="-820" y="490" width="180" height="120" as="geometry" />
+            <mxGeometry x="-820" y="580" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; font-size: 12px ; white-space: normal&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;%description%&lt;/div&gt;" placeholders="1" name="meddata" description="Топик для публикации данных по клиентам" technology="Kafka" id="za_llstwHbc8Mdf73bLc-38">
           <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#2F6FA6;strokeWidth=1;fillColor=#3B8CD2;fontSize=9;fontColor=#000000;align=center;resizable=1;rotatable=0;direction=south;metaEdit=1;" vertex="1" parent="1">
-            <mxGeometry x="-820" y="670" width="180" height="70" as="geometry" />
+            <mxGeometry x="-820" y="720" width="180" height="70" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Профили пользователей" technology="Kafka" id="za_llstwHbc8Mdf73bLc-39">
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Мед. записи" technology="Kafka" id="za_llstwHbc8Mdf73bLc-39">
           <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="za_llstwHbc8Mdf73bLc-40" target="za_llstwHbc8Mdf73bLc-38" parent="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxGeometry x="-0.0021" width="50" height="50" relative="1" as="geometry">
               <mxPoint x="-860" y="820" as="sourcePoint" />
               <mxPoint x="-660" y="820" as="targetPoint" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -178,7 +179,7 @@
             <mxGeometry x="-820" y="1030" width="180" height="70" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Профили пользователей" technology="Kafka" id="za_llstwHbc8Mdf73bLc-45">
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Фин. данные" technology="Kafka" id="za_llstwHbc8Mdf73bLc-45">
           <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="za_llstwHbc8Mdf73bLc-46" target="za_llstwHbc8Mdf73bLc-44" parent="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="-860" y="1180" as="sourcePoint" />
@@ -257,7 +258,7 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Профили пользователей" technology="Kafka" id="za_llstwHbc8Mdf73bLc-67">
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Мед. записи" technology="Kafka" id="za_llstwHbc8Mdf73bLc-67">
           <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="za_llstwHbc8Mdf73bLc-38" target="za_llstwHbc8Mdf73bLc-64">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="-930" y="620" as="sourcePoint" />
@@ -265,7 +266,7 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Профили пользователей" technology="Kafka" id="za_llstwHbc8Mdf73bLc-68">
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;br&gt;[%technology%]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Фин. данные" technology="Kafka" id="za_llstwHbc8Mdf73bLc-68">
           <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="za_llstwHbc8Mdf73bLc-44" target="za_llstwHbc8Mdf73bLc-64">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="-630" y="715" as="sourcePoint" />
@@ -375,6 +376,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%name%&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; font-size: 12px ; white-space: normal&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;%description%&lt;/div&gt;" placeholders="1" name="MED_FILES" description="Файловое хранилище для снимков, результатов исследований" technology="S3" id="za_llstwHbc8Mdf73bLc-90">
+          <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#2F6FA6;strokeWidth=1;fillColor=#3B8CD2;fontSize=9;fontColor=#000000;align=center;resizable=0;rotatable=0;metaEdit=1;" vertex="1" parent="1">
+            <mxGeometry x="-820" y="450" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;%name%&lt;/b&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;[%technology%]" placeholders="1" name="S3" technology="HTTP" id="za_llstwHbc8Mdf73bLc-92">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;dashed=1;dashPattern=8 8;strokeColor=#828282;elbow=vertical;metaEdit=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="za_llstwHbc8Mdf73bLc-40" target="za_llstwHbc8Mdf73bLc-90">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-930" y="560" as="sourcePoint" />
+              <mxPoint x="-810" y="520" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
